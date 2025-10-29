@@ -1037,8 +1037,10 @@ tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/TagServiceTests.
 tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/TemplateServiceTests.cs
 tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/ContentPublishingServiceTests.Publish.cs
 tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/RedirectUrlServiceTests.cs
+tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/MediaServiceNotificationWithCacheTests.cs
 tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/ContentListViewServiceTestsBase.cs
 tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/ContentBlueprintEditingServiceTests.GetScaffold.cs
+tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/ContentServiceNotificationWithCacheTests.cs
 tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/ContentEditingServiceTests.DeleteFromRecycleBin.cs
 tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/ContentBlueprintEditingServiceTests.cs
 tests/Umbraco.Tests.Integration/Umbraco.Infrastructure/Services/NuCacheRebuildTests.cs
@@ -4355,10 +4357,13 @@ src/Umbraco.Cms.Persistence.EFCore.SqlServer/Umbraco.Cms.Persistence.EFCore.SqlS
 src/Umbraco.Cms.Persistence.EFCore.SqlServer/SqlServerMigrationProvider.cs
 src/Umbraco.Cms.Api.Common/ViewModels/Pagination/PagedViewModel.cs
 src/Umbraco.Cms.Api.Common/ViewModels/Pagination/SubsetViewModel.cs
+src/Umbraco.Cms.Api.Common/Accessors/RequestContextOutputExpansionStrategyAccessor.cs
+src/Umbraco.Cms.Api.Common/Accessors/RequestContextServiceAccessorBase.cs
 src/Umbraco.Cms.Api.Common/Umbraco.Cms.Api.Common.csproj
 src/Umbraco.Cms.Api.Common/Security/Paths.cs
 src/Umbraco.Cms.Api.Common/Filters/JsonOptionsNameAttribute.cs
 src/Umbraco.Cms.Api.Common/Mvc/ActionResults/EmptyCreatedAtActionResult.cs
+src/Umbraco.Cms.Api.Common/Rendering/ElementOnlyOutputExpansionStrategy.cs
 src/Umbraco.Cms.Api.Common/Json/NamedSystemTextJsonInputFormatter.cs
 src/Umbraco.Cms.Api.Common/Json/HttpContextJsonExtensions.cs
 src/Umbraco.Cms.Api.Common/Json/NamedSystemTextJsonOutputFormatter.cs
@@ -11881,6 +11886,7 @@ src/Umbraco.Web.UI.Client/src/libs/observable-api/utils/observe-multiple.functio
 src/Umbraco.Web.UI.Client/src/libs/observable-api/utils/push-to-unique-array.function.ts
 src/Umbraco.Web.UI.Client/src/libs/observable-api/utils/strict-equality-memoization.function.ts
 src/Umbraco.Web.UI.Client/src/libs/observable-api/utils/deep-freeze.function.ts
+src/Umbraco.Web.UI.Client/src/libs/observable-api/utils/replace-in-unique-array.function.ts
 src/Umbraco.Web.UI.Client/src/libs/observable-api/utils/simple-hash-code.function.ts
 src/Umbraco.Web.UI.Client/src/libs/observable-api/utils/index.ts
 src/Umbraco.Web.UI.Client/src/libs/observable-api/utils/filter-frozen-array.function.ts
